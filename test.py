@@ -12,5 +12,5 @@ def test_recommender():
     """
     movies = pd.read_csv('./data/movies.csv')
     recommendations = recommend_random(movies=movies,k=10)
-    assert len(reommendations)==10
+    assert len(recommendations)==10
     
